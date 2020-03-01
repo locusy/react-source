@@ -50,7 +50,7 @@ console.log('jsx', jsx)
 // import * as serviceWorker from './serviceWorker';
 
 // react会检测jsx文件中的模版代码 它的createElement方法将jsx转化成虚拟dom => 
-// ReactDOM再将vdom挂载到真实dom上
+// ReactDOM的render方法再将vdom挂载到真实dom上
 ReactDOM.render(jsx, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
