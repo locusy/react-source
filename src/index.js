@@ -24,13 +24,23 @@ class Comp1 extends Component {
     }
 }
 
-
+const sports = [
+    {
+        name: 'basketball',
+        feature: 'jumper'
+    },
+    {
+        name: 'basketball',
+        feature: 'jumper'
+    }
+]
 // jsx就是js对象，就是vdom
 const jsx = (
     <div id="yeah" className="bingo">
         <h1>什么是</h1>
         <Comp name="函数组件" />
         <Comp1 name="类组件" />
+        {sports.map(elem => (`${elem.name}:${elem.feature}`))}
     </div>
 )
 
