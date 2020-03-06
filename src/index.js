@@ -1,5 +1,5 @@
-import React, {Component} from './mini-react/sreact';
-import ReactDOM from './mini-react/sreact-dom';
+import React, {Component} from './react-mini/sreact';
+import ReactDOM from './react-mini/sreact-dom';
 
 // 函数类型组件
 function Comp(props) {
