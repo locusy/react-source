@@ -26,6 +26,7 @@ export function createStore(reducer, enhancer) {
 
  /**
   * 对中间件进行处理
+  * applyMiddleware的核心作用是强化dispatch 让他执行中间件
   */
 export default function applyMiddleware(...middlewares) {
     return createStore => (...args) => {
