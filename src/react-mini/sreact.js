@@ -1,9 +1,3 @@
-/*
- * @Author: tianzhi
- * @Date: 2020-02-29 13:59:22
- * @LastEditors: tianzhi
- * @LastEditTime: 2020-03-01 17:55:14
- */
 function createElement(type, props, ...children) {
     // console.log('arguments', arguments)
     props.children = children

@@ -1,9 +1,3 @@
-/*
- * @Author: tianzhi
- * @Date: 2020-03-01 21:56:11
- * @LastEditors: tianzhi
- * @LastEditTime: 2020-03-01 22:54:35
- */
 function initVdom(vnode) {
     let { vtype } = vnode
 
