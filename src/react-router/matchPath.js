@@ -23,8 +23,7 @@ function compilePath(path, options) {
  */
 function matchPath(pathname, options = {}) {
     if (typeof options === "string") options = { path: options };
-    const { path, exact = false, strict = false, sensitive = false } =
-  options;
+    const { path, exact = false, strict = false, sensitive = false } = options;
     const paths = [].concat(path);
     return paths.reduce((matched, path) => {
       if (!path) return null;
@@ -47,9 +46,10 @@ function matchPath(pathname, options = {}) {
           memo[key.name] = values[index];
           return memo;
         }, {})
-  };
-  }, null);
-  }
-  export default matchPath;
+      };
+    }, null);
+}
+
+export default matchPath;
 
   
