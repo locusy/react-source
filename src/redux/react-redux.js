@@ -14,6 +14,7 @@ export const connect = (mapStateToProps = state=>state, mapDispatchToProps={}) =
         static contextTypes = {
             store: PropTypes.object
         }
+        
         constructor(props, context) {
             super(props, context)
             this.state = {
