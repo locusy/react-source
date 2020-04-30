@@ -7,4 +7,5 @@ function render(vdom, container) {
     container.appendChild(node)
 }
 
+
 export default { render }

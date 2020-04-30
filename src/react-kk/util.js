@@ -30,7 +30,6 @@ export function pipe(fn1, fn2) {
 }
 
 
-
 export function flatEach(list, iteratee, a) {
     let len = list.length
     let i = -1
