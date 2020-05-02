@@ -17,6 +17,7 @@ function isValidContainer(node) {
     ))
 }
 
+
 let pendingRendering = {}
 let vnodeStore = {}
 function renderTreeIntoContainer(vnode, container, callback, parentContext) {
